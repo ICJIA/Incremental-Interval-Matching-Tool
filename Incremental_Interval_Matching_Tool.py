@@ -257,5 +257,5 @@ def static_vars():
     save_to_filename = ''
     return source_file_path, id_col, group_col, match_col, save_to_filename
 
-if __name__ '__main__':
+if __name__ == '__main__':
     begin()
