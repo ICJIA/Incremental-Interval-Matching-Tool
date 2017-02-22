@@ -1,6 +1,5 @@
 ### Find exact and fuzzy matches of values within a dataframe
-This tool will first screen file names in case there is already an existing file.
-It then identifies exact matches and default fuzzy matches (default caliper range between .0001 and .0005). It displays the match count as it performs the matching. After the first fuzzy matches it requests a decision based on the number of matches. If you need more matches it then requests a new caliper to widen the search criteria/range. Once you have enough matches or all of the matches have been made it exports the pairs of matches to a csv you designated.
+This tool identifies exact matches and default fuzzy matches (default caliper range between .0001 and .0005). It displays the match count as it performs the matching. After the first fuzzy matches it requests a decision based on the number of matches. If you need more matches it then requests a new caliper to widen the search criteria/range. Once you have enough matches or all of the matches have been made it exports the pairs of matches to a csv you designated.
 
 #### static_var() variables you need to enter manually (all strings):
 
