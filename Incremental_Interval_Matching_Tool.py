@@ -234,7 +234,7 @@ def caliper_request(previous_caliper, caliper):
         walk = True
         return walk, new_caliper
     except ValueError:
-        print ("INPUT ERROR: Please enter a caliper of type float (decimal) such as .005")
+        print ("INPUT ERROR: Please enter a new caliper of type float (decimal) such as .005")
         caliper_request()
 
 
